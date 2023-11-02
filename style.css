@@ -1,0 +1,291 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "DM Serif Display", serif;
+  scroll-behavior: smooth;
+}
+
+/* ----------|| Section 1 ||--------------- */
+
+header {
+  position: absolute;
+  min-width: 100%;
+}
+.header_Wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_Wrapper > div {
+  padding: 1rem;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+}
+.nav_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+.nav_items > div {
+  /* border: 1px solid white; */
+  padding: 0.5rem;
+}
+.nav_child_items > a {
+  text-decoration: none;
+  color: white;
+  padding: 0rem 1rem 0rem 1rem;
+  font-size: 1rem;
+}
+
+.section1_background_image {
+  height: 100%;
+  min-width: 100%;
+}
+.parallax_image {
+  background-image: url("./Images/green-monstera-leaves-nature-background.jpg");
+  min-height: 650px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sub-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.375rem;
+  font-weight: 500;
+}
+.header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
+  font-weight: 500;
+  padding: 1rem;
+  margin: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  color: white;
+  box-shadow: white 0px 2px 4px 0px, white 0px 2px 10px 0px;
+  transition: 0.3s;
+}
+
+/* ----------|| Section 2 ||--------------- */
+
+.section_2 {
+  min-height: 25%;
+  min-width: auto;
+  margin: 2rem;
+}
+.section_2 > .wrapper1 {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper1 > div {
+  padding: 1rem;
+  min-width: 2rem;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.icon1 {
+  padding: 1rem;
+  height: 2rem;
+  border-radius: 5rem;
+  background-color: #8181811f;
+}
+.icon1 > img {
+  height: 2rem;
+  width: 2rem;
+}
+.item1 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.item1 > .content_item1 > p {
+  color: grey;
+  font-size: small;
+  font-family: sans-serif;
+}
+
+/* ----------|| Section 3 ||--------------- */
+
+.section_3 {
+  min-height: 25%;
+  min-width: auto;
+  margin: 1rem;
+}
+.section_3 > .wrapper2 {
+  display: flex;
+  flex-direction: row;
+  min-width: auto;
+  justify-content: space-around;
+}
+.wrapper2 > div {
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.icon2 > img {
+  height: 15rem;
+  width: 15rem;
+  background-color: transparent;
+  transition: 1s ease;
+}
+.icon2 img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.item2 > .content_item2 {
+  font-size: small;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  font-weight: bolder;
+}
+
+.item2 > .content_item2 > a {
+  color: rgb(134, 134, 134);
+}
+
+/* ----------|| Section 4 ||--------------- */
+
+.section_4 {
+  padding: 1rem 1rem 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebeb;
+}
+
+.Section_4_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0rem 1rem 2rem 1rem;
+  align-items: center;
+  font-weight: None;
+}
+.Section_4_content > div > p {
+  font-weight: normal;
+  color: #605e5e;
+}
+.Section_4_content > div > button {
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: #009170;
+  border: transparent;
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+.section_4_items {
+  display: flex;
+  flex-direction: row;
+  min-width: auto;
+  justify-content: space-between;
+}
+
+.section_4_items > div {
+  min-width: 5rem;
+  margin: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.section_4_items > .item3 > .content_item3 {
+  font-size: small;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem;
+  background-color: #ebebeb;
+  font-weight: bolder;
+}
+
+.icon3 > img {
+  height: 20rem;
+  width: 17rem;
+  background-color: transparent;
+}
+.item3 > .content_item3 > a {
+  color: rgb(134, 134, 134);
+}
+
+/* ----------|| Section 4 ||--------------- */
+
+.section_5{
+ margin: 2rem;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ min-width: auto;
+}
+.section_5_img{
+  display: flex;
+  flex-direction: row;
+}
+.section_5 > .section_5_img > div > img {
+  height: 35rem;
+  max-width: 100%;
+}
+.section_5_content > div{
+  margin: 2rem;
+  width: 40rem;
+}
+.section_5_item1{
+ color: #00ab84;
+}
+.section_5_item2{
+  font-size: 3rem;
+ }
+ .section_5_item3{
+  color: grey;
+  font-size: small;
+  font-family: sans-serif;
+ }
+ .section_5_item4{
+  font-size: large;
+ }
+.social_media_links{
+  display: flex;
+  flex-direction: row;
+}
+ .social_media_icons {
+  padding: 0.5rem;
+  height: 1.5rem;
+  border-radius: 5rem;
+  background-color: #8181811f;
+  margin: 1rem 2rem 1rem 0rem;
+ 
+}
+.social_media_icons > img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
